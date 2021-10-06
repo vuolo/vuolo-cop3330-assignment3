@@ -8,7 +8,7 @@
 // If you find that your class has multiple methods which form subgroups that each do something completely different,
 // you probably need to extra one of those subgroups into a new class.
 
-// PSEUDOCODE: (write this before Java code)
+// TODO: PSEUDOCODE: (write this before Java code)
 /*
 
  */
