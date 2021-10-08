@@ -16,7 +16,7 @@ public class NamesTest {
     void sortNamesList_abc() {
         Names names = new Names();
         names.setNameList(new ArrayList<String>(Arrays.asList("c", "b", "a")));
-        Assertions.assertEquals("[a, b, c]", names.sortNamesList().toString());
+        Assertions.assertEquals("[a, b, c]", names.sortNameList().toString());
     }
 }
 

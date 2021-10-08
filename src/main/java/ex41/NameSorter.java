@@ -3,16 +3,6 @@
  *  Copyright 2021 Michael Vuolo
  */
 
-// This pseudocode will help you determine where and how your code should be broken up into classes and methods.
-// If you have a comment describing what multiple statements accomplish, those statements probably need to be extracted into a method.
-// If you find that your class has multiple methods which form subgroups that each do something completely different,
-// you probably need to extra one of those subgroups into a new class.
-
-// TODO: PSEUDOCODE: (write this before Java code)
-/*
-
- */
-
 package ex41;
 
 import java.io.File;
@@ -36,7 +26,7 @@ public class NameSorter {
         names.setNameList(readNames(inputPath));
 
         // sort names and write to file
-        writeNames(names.sortNamesList(), outputPath);
+        writeNames(names.sortNameList(), outputPath);
     }
 
     // read names from file; each line is a new name
@@ -81,9 +71,7 @@ public class NameSorter {
     public static void createFileIfDoesntExist(String path) {
         File file = new File(path);
         try {
-            boolean fileCreated = file.createNewFile();
-            if (!fileCreated)
-                file.createNewFile();
+            file.createNewFile();
         } catch (IOException e) {
             System.out.println(e);
         }

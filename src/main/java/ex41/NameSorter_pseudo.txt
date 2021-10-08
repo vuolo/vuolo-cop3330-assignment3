@@ -1,0 +1,25 @@
+main {
+    Create new Names list
+    Read names from file and update list
+    Sort names and write them to a file
+end
+}
+
+function readNames(path) {
+    Read names from a file
+
+    return list of names
+end
+}
+
+function writeNames(list of names, path) {
+    Write list of names to a file
+
+    return whether the file was written to successfully
+end
+}
+
+function createFileIfDoesntExist(path) {
+    Create a file at a path to prevent issues writing
+end
+}

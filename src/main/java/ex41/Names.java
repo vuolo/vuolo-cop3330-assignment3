@@ -30,7 +30,7 @@ public class Names {
     }
 
     // sort names
-    public ArrayList<String> sortNamesList() {
+    public ArrayList<String> sortNameList() {
         Collections.sort(this.nameList);
         return this.nameList;
     }

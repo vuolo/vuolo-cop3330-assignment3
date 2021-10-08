@@ -1,0 +1,21 @@
+function setNameList(new list) {
+    Update the current list to the new list
+end
+}
+
+function getNameList() {
+    return current list of names
+end
+}
+
+function sortNameList() {
+    Sort current name list alphabetically
+
+    return newly sorted list
+end
+}
+
+function size() {
+    return size of list of names
+end
+}
