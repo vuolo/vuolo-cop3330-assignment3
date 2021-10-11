@@ -22,6 +22,3 @@ class Names {
 NameSorter o-- Names
 
 @enduml
-
-' Each class within your diagram must list both the
-' attributes and the methods defined within that class.

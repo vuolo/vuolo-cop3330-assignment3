@@ -1,0 +1,29 @@
+function setFirstName(new first name) {
+    Update the employee's first name
+end
+}
+
+function getFirstName() {
+    return employee's first name
+end
+}
+
+function setLastName(new last name) {
+    Update the employee's last name
+end
+}
+
+function getLastName() {
+    return employee's last name
+end
+}
+
+function setSalary(new salary) {
+    Update the employee's salary
+end
+}
+
+function getSalary() {
+    return employee's salary
+end
+}

@@ -1,0 +1,20 @@
+main {
+    Create new Employees list
+    Read employees from file and update list
+    Parse and display employees' names and salaries
+end
+}
+
+function readEmployees(path) {
+    Read employees from a file
+
+    return list of employees
+end
+}
+
+function parseCSV(raw CSV data) {
+    Parses raw CSV data by separating by commas
+
+    return new array list
+end
+}

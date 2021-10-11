@@ -1,0 +1,16 @@
+function setEmployeeList(new list) {
+    Update the current list to the new list
+end
+}
+
+function getEmployeeList() {
+    return current list of employees
+end
+}
+
+function formatEmployeeList() {
+    Format employees' names and salaries into a table
+
+    return table
+end
+}

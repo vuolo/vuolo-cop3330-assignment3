@@ -1,0 +1,38 @@
+@startuml
+
+class SalaryParser {
+    String inputPath
+    Employees employees
+
+    readEmployees()
+    parseCSV()
+}
+
+class Employees {
+    ArrayList<Employee> Employees
+
+    setEmployeeList()
+    getEmployeeList()
+    formatEmployeeList()
+}
+
+class Employee {
+    String firstName
+    String lastName
+    int salary
+
+    setFirstName()
+    getFirstName()
+    setLastName()
+    getLastName()
+    setSalary()
+    getSalary()
+}
+
+SalaryParser o-- Employees
+Employees o-- Employee
+
+@enduml
+
+' Each class within your diagram must list both the
+' attributes and the methods defined within that class.
