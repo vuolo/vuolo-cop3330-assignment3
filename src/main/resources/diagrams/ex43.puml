@@ -1,0 +1,14 @@
+@startuml
+
+class WebsiteGenerator {
+    String siteName
+    String author
+    boolean shouldCreateJSFolder
+    boolean shouldCreateCSSFolder
+
+    generateWebsite()
+    genIndexHTML()
+    createFileIfDoesntExist()
+}
+
+@enduml

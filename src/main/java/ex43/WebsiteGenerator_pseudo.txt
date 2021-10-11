@@ -1,0 +1,24 @@
+main {
+    Prompt user for data about website
+    Generate website skeleton with generateWebsite()
+end
+}
+
+function generateWebsite(site name, author, create js folder?, create css folder?) {
+    Read names from a file
+
+    return list of names
+end
+}
+
+function genIndexHTML(list of names, path) {
+    Format site name and author into header of a new index.html file
+
+    return whether the file was written to successfully
+end
+}
+
+function createFileIfDoesntExist(path, check if creating a directory) {
+    Create a file/directory at a path to prevent issues writing
+end
+}

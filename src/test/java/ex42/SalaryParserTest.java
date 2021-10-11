@@ -8,9 +8,6 @@ package ex42;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class SalaryParserTest {
     // static input file path
     static String inputPath = "src/main/resources/input_files/exercise42_input.txt";
