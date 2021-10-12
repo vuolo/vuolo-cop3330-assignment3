@@ -9,7 +9,7 @@ class SalaryParser {
 }
 
 class Employees {
-    ArrayList<Employee> Employees
+    ArrayList<Employee> employeeList
 
     setEmployeeList()
     getEmployeeList()

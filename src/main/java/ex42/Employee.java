@@ -5,7 +5,7 @@
 
 package ex42;
 
-// Employee include first/last name and salary
+// Employee includes first/last name and salary
 public class Employee {
 
     // setup private attributes

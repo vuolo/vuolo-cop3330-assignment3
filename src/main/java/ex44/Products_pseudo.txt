@@ -1,0 +1,16 @@
+function setProductList(new list) {
+    Update the current list to the new list
+end
+}
+
+function getProductList() {
+    return current list of products
+end
+}
+
+function searchForProduct() {
+    Loop through all products and check if search term is same as name
+
+    return product (if found)
+end
+}

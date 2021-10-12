@@ -1,0 +1,34 @@
+@startuml
+
+class ProductSearcher {
+    String inputPath
+    Product foundProduct
+    Products products
+    String curSearchTerm
+}
+
+class Products {
+    ArrayList<Products> productList
+
+    setProductList()
+    getProductList()
+    searchForProduct()
+}
+
+class Product {
+    String name
+    float price
+    int quantity
+
+    setName()
+    getName()
+    setPrice()
+    getPrice()
+    setQuantity()
+    getQuantity()
+}
+
+ProductSearcher o-- Products
+Products o-- Product
+
+@enduml

@@ -1,0 +1,7 @@
+main {
+    Create new Products list
+    Read Products from json file
+    Read user input and search for product
+    Display found product
+end
+}

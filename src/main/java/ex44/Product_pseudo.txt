@@ -1,0 +1,34 @@
+function setName(new name) {
+    Update the product's name
+end
+}
+
+function getName() {
+    return product's name
+end
+}
+
+function setPrice(new price) {
+    Update the product's price
+end
+}
+
+function getPrice() {
+    return product's price
+end
+}
+
+function setQuantity(new quantity) {
+    Update the product's quantity
+end
+}
+
+function getQuantity() {
+    return product's quantity
+end
+}
+
+function display() {
+    Print product attributes
+end
+}
