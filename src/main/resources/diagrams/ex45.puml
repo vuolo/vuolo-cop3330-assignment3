@@ -1,0 +1,15 @@
+@startuml
+
+class WordFinder {
+    String inputPath
+    String outputPath
+    ArrayList<String> phraseList
+    String outputFileName
+
+    readPhrases()
+    writePhrases()
+    createFileIfDoesntExist()
+    replaceOccurances()
+}
+
+@enduml

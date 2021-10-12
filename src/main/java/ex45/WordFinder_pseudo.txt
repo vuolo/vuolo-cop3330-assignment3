@@ -1,0 +1,30 @@
+main {
+    Read phrases (each line) from input file
+    Prompt user for output file name
+    Update phrases and write to output file
+end
+}
+
+function readPhrases(path) {
+    Read phrases (each line) from a file
+
+    return list of phrases
+end
+}
+
+function writePhrases(list of phrases, path) {
+    Write list of phrases to a file
+
+    return whether the file was written to successfully
+end
+}
+
+function createFileIfDoesntExist(path) {
+    Create a file at a path to prevent issues writing
+end
+}
+
+function replaceOccurances(list of phrases, old word, new word) {
+    Replaces each old word with specified new word in each phrase
+end
+}
