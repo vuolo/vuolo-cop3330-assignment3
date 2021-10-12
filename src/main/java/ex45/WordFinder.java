@@ -30,7 +30,7 @@ public class WordFinder {
         String outputFileName = input.nextLine();
 
         // update phrases and write to file
-        writePhrases(replaceOccurances(phraseList, "utilize", "use"), outputPath + outputFileName + ".txt");
+        writePhrases(replaceOccurrences(phraseList, "utilize", "use"), outputPath + outputFileName + ".txt");
         System.out.println("All occurances of \"utilize\" successfully replaced with \"use\".");
     }
 
@@ -78,8 +78,8 @@ public class WordFinder {
         }
     }
 
-    // replaces all occurances of a string in a list of phrases
-    public static ArrayList<String> replaceOccurances(ArrayList<String> phraseList, String oldWord, String newWord) {
+    // replaces all occurrences of a string in a list of phrases
+    public static ArrayList<String> replaceOccurrences(ArrayList<String> phraseList, String oldWord, String newWord) {
         for (int i = 0; i < phraseList.size(); i++)
             phraseList.set(i, phraseList.get(i).replace(oldWord, newWord));
         return phraseList;

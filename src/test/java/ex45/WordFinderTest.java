@@ -31,9 +31,9 @@ public class WordFinderTest {
     }
 
     @Test
-    void replaceOccurances_HelloWorldMyNameIsWorld_World_There() {
+    void replaceOccurrences_HelloWorldMyNameIsWorld_World_There() {
         WordFinder wordFinder = new WordFinder();
-        Assertions.assertEquals("[Hello there, my name is there.]", wordFinder.replaceOccurances(new ArrayList<String>(Arrays.asList("Hello world, my name is world.")), "world", "there").toString());
+        Assertions.assertEquals("[Hello there, my name is there.]", wordFinder.replaceOccurrences(new ArrayList<String>(Arrays.asList("Hello world, my name is world.")), "world", "there").toString());
     }
 }
 

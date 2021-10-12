@@ -1,0 +1,14 @@
+@startuml
+
+class WordFrequencyFinder {
+    String inputPath
+    ArrayList<String> phraseList
+
+    readPhrases()
+    countOccurrences()
+    sortHashMap()
+    displayWordOccurrencesHistogram()
+    convertIntToAsterisks()
+}
+
+@enduml

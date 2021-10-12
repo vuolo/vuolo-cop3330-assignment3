@@ -24,7 +24,7 @@ function createFileIfDoesntExist(path) {
 end
 }
 
-function replaceOccurances(list of phrases, old word, new word) {
+function replaceOccurrences(list of phrases, old word, new word) {
     Replaces each old word with specified new word in each phrase
 end
 }

@@ -1,0 +1,38 @@
+main {
+    Read phrases (each line) from input file
+    Display histogram of word occurrences
+end
+}
+
+function readPhrases(path) {
+    Read phrases (each line) from a file
+
+    return list of phrases
+end
+}
+
+function countOccurrences(list of phrases) {
+    Count each word's occurrence
+
+    return a sorted hash map of each word's occurrences
+end
+}
+
+function sortHashMap(hash map) {
+    Sort hash map based on values (greatest to least)
+
+    return sorted hash map
+end
+}
+
+function displayWordOccurrencesHistogram(hash map of word occurrences) {
+    Displays a histogram of each word's occurrence
+end
+}
+
+function convertIntToAsterisks(number of asterisks) {
+    Creates a new string filled with specified number of asterisks
+
+    return asterisks string
+end
+}
